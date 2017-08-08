@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
+    // Create an instance of the player object
     public GameObject player;
 
+    //Create an instance of the Stage
     private Vector3 offset;
 
 	// Use this for initialization
